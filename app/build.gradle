@@ -1,3 +1,15 @@
+
+buildscript {
+    repositories {
+        google()
+    }
+}
+
+plugins {
+    id 'com.android.application'
+    id "tqrg.leafactor.ci" version "0.0.2"
+}
+
 apply plugin: 'com.android.application'
 apply plugin: 'de.mobilej.unmock'
 apply plugin: 'net.ltgt.errorprone'
